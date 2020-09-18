@@ -5,29 +5,26 @@
     "input": {
       "value": {
         "Identity": {
-          "principalId": "93e921f3-7610-4ab5-afd9-b0f2ac8dc612",
-          "tenantId": "b481c5ec-2f4f-41f5-afaf-1146feea999c",
           "type": "SystemAssigned"
         },
         "Location": "eastus",
         "Name": "Deploy-Log-Analytics",
-        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/ES-management/providers/Microsoft.Authorization/policyAssignments/Deploy-Log-Analytics",
         "Properties": {
-          "Description": "Deploy-Log-Analytics",
-          "DisplayName": "Deploy-Log-Analytics",
+          "Description": null,
+          "DisplayName": "Deploy-LogAnalytics",
           "NotScopes": null,
           "Parameters": {
             "automationAccountName": {
-              "value": "ES-a-0e325087-1b24-4bcf-806d-8049ea9e607d"
+              "value": "contoso-use-aa"
             },
             "automationRegion": {
               "value": "eastus"
             },
             "rgName": {
-              "value": "ES-mgmt"
+              "value": "contoso-use-mgmt"
             },
             "workspaceName": {
-              "value": "ES-la-0e325087-1b24-4bcf-806d-8049ea9e607d"
+              "value": "contoso-use-la"
             },
             "workspaceRegion": {
               "value": "eastus"
@@ -36,13 +33,7 @@
           "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/ES/providers/Microsoft.Authorization/policyDefinitions/Deploy-Log-Analytics",
           "Scope": "/providers/Microsoft.Management/managementGroups/ES-management"
         },
-        "ResourceId": "/providers/Microsoft.Management/managementGroups/ES-management/providers/Microsoft.Authorization/policyAssignments/Deploy-Log-Analytics",
-        "ResourceName": "Deploy-Log-Analytics",
-        "ResourceType": "Microsoft.Authorization/policyAssignments",
-        "Sku": {
-          "name": "A0",
-          "tier": "Free"
-        }
+        "ResourceType": "Microsoft.Authorization/policyAssignments"
       }
     }
   }

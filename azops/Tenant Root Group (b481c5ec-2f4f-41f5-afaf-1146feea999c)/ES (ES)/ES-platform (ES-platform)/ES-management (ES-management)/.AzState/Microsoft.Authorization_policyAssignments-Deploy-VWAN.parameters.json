@@ -1,0 +1,43 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "038d36c6-ee86-42f9-942b-b2033d7db49e",
+          "tenantId": "b481c5ec-2f4f-41f5-afaf-1146feea999c",
+          "type": "SystemAssigned"
+        },
+        "Location": "eastus",
+        "Name": "Deploy-VWAN",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/ES-management/providers/Microsoft.Authorization/policyAssignments/Deploy-VWAN",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "Deploy-vWAN",
+          "NotScopes": null,
+          "Parameters": {
+            "rgName": {
+              "value": "contoso-global-vwan"
+            },
+            "vwanname": {
+              "value": "contoso-vwan"
+            },
+            "vwanRegion": {
+              "value": "eastus"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/ES/providers/Microsoft.Authorization/policyDefinitions/Deploy-vWAN",
+          "Scope": "/providers/Microsoft.Management/managementGroups/ES-management"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/ES-management/providers/Microsoft.Authorization/policyAssignments/Deploy-VWAN",
+        "ResourceName": "Deploy-VWAN",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

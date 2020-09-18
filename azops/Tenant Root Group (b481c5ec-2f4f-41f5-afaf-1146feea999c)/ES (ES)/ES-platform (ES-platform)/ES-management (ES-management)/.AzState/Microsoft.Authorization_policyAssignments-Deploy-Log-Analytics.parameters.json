@@ -13,21 +13,21 @@
         "Name": "Deploy-Log-Analytics",
         "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/ES-management/providers/Microsoft.Authorization/policyAssignments/Deploy-Log-Analytics",
         "Properties": {
-          "Description": "Deploy-Log-Analytics",
-          "DisplayName": "Deploy-Log-Analytics",
+          "Description": null,
+          "DisplayName": "Deploy-LogAnalytics",
           "NotScopes": null,
           "Parameters": {
             "automationAccountName": {
-              "value": "ES-a-0e325087-1b24-4bcf-806d-8049ea9e607d"
+              "value": "contoso-use-aa"
             },
             "automationRegion": {
               "value": "eastus"
             },
             "rgName": {
-              "value": "ES-mgmt"
+              "value": "contoso-use-mgmt"
             },
             "workspaceName": {
-              "value": "ES-la-0e325087-1b24-4bcf-806d-8049ea9e607d"
+              "value": "contoso-use-la"
             },
             "workspaceRegion": {
               "value": "eastus"
